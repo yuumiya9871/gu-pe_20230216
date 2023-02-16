@@ -1,0 +1,141 @@
+body {
+  background-color: #fffcf8;
+}
+
+#top:before {
+  position: absolute;
+  content: "";
+  top: 0%;
+  width: 100%;
+  height: 20px;
+  background: #2DB1FF;
+}
+
+.header-tel {
+  position: relative;
+  margin: 40px 0 0 85%;
+}
+
+.header-logo {
+  position: relative;
+  left: 40px;
+  padding: 40px 0;
+}
+
+.header-text {
+  position: relative;
+  left: 40px;
+  margin: 0;
+}
+
+div {
+  margin: 20px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #fff;
+}
+
+.flex-box {
+  background-color: #fff;
+  border: #4EC0F2 solid 2px;
+  width: 300px;
+}
+
+.arrow_s {
+  position: relative;
+  display: inline-block;
+  padding-left: 12px;
+  color: #333;
+  text-decoration: none;
+}
+
+.arrow_s:before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-top: solid 2px rgb(243, 119, 3);
+  border-right: solid 2px rgb(243, 119, 3);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -4px;
+  transform: rotate(45deg);
+}
+
+.flex-text {
+  background-color: #fff;
+  border: dotted 2px #4EC0F2;
+  width: 300px;
+}
+
+.image {
+  position: relative;
+  top: 0%;
+  left: 40%;
+}
+
+.text_2 {
+  color: #4EC0F2;
+}
+
+.contents-box {
+    background-color: #fff;
+    border: dotted 2px #4EC0F2;
+}
+
+footer {
+  background-color: #4EC0F2;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer01 {
+  position: relative;
+  background: #4EC0F2;
+}
+
+#footer01 .logo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#footer01 .logo a {
+  display: inline-block;
+}
+
+#footer01 .nav a {
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+}
+
+  #footer01 .nav {
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  #footer01 .nav a:hover {
+    color: #fff;
+  }
+
+  .copyright {
+    color: #fff;
+  }
